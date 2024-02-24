@@ -86,7 +86,7 @@ let listaFeiticeiros = [
   },
   {
     "nome": "Yuta Okkotsu",
-    "img": "assets/yuta.jpg",
+    "img": "https://i.pinimg.com/736x/fd/a9/92/fda99207c46c01da36e1242ba5c24eb3.jpg",
     "descricao": "O protagonista do filme Jujutsu Kaisen 0, que luta contra maldições."
   },
   {
