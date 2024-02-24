@@ -1,49 +1,139 @@
 let listaFeiticeiros = [
+  // {
+  //   nome:'Satoru Gojo',
+  //   img:'assets/gojo.jpg',
+  //   descricao:'Além de seu controle absoluto sobre o espaço, Gojo é conhecido por sua personalidade descontraída e senso de humor sarcástico.'
+  // },
+  // {
+  //   nome: 'Suguru Geto',
+  //   img: 'assets/geto.jpg',
+  //   descricao: 'Ele possui profundos conhecimentos sobre maldições e é implacável em seus objetivos, buscando realizar sua visão distorcida do mundo.'
+  // },
+  // {
+  //   nome: 'Yuji Itadori',
+  //   img: 'assets/itadori.jpg',
+  //   descricao: 'Apesar de se tornar hospedeiro de Sukuna, Itadori mantém sua gentileza e determinação em proteger os outros, tornando-se um protagonista cativante.'
+  // },
+  // {
+  //   nome: 'Megumi Fushiguro',
+  //   img: 'assets/megumi.png',
+  //   descricao: ' Fushiguro mostra uma determinação inabalável em proteger os outros, muitas vezes enfrentando desafios que testam seus limites.'
+  // },
+  // {
+  //   nome: 'Ryomen Sukuna',
+  //   img: 'assets/sukuna.jpg',
+  //   descricao: 'Além de sua força incomparável, Sukuna é conhecido por sua astúcia e habilidade em manipular situações a seu favor.'
+  // },
+  // {
+  //   nome: 'Yuta Okkotso',
+  //   img: 'assets/yuta.jpg',
+  //   descricao: 'Yuta luta não apenas contra maldições, mas também contra suas próprias batalhas internas, buscando encontrar um equilíbrio entre suas habilidades e seu passado conturbado.'
+  // },
+  // {
+  //   nome: 'Nobara Kugisaki',
+  //   img: 'assets/nobara.png',
+  //   descricao: 'Uma jovem exorcista que utiliza um martelo amaldiçoado e uma técnica de controle de objetos chamada "Resonância".'
+  // },
+  // {
+  //   nome: 'Aoi Todo',
+  //   img: 'assets/todo.jpg',
+  //   descricao: 'Todo é um personagem com uma personalidade extravagante e confiante. Ele exala uma aura de arrogância e competição, sempre buscando se destacar em suas habilidades de combate, especialmente no uso de técnicas de controle de chamas. Sua presença muitas vezes adiciona uma dinâmica interessante às interações com outros personagens.'
+  // },
+  // {
+  //   nome: 'Toji Fushiguro',
+  //   img: 'assets/toji.jpg',
+  //   descricao: 'Toji Fushiguro é um homem misterioso e habilidoso em combate. Ele é conhecido por sua abordagem pragmática e fria diante de desafios, demonstrando uma eficiência brutal em suas ações. Apesar de sua personalidade reservada, Toji tem uma conexão familiar com Megumi Fushiguro, e suas interações revelam uma dinâmica complexa entre os dois. Sua presença na história adiciona uma camada de intriga e tensão, à medida que seus motivos e passado são gradualmente revelados.'
+  // }
   {
-    nome:'Satoru Gojo',
-    img:'assets/gojo.jpg',
-    descricao:'Além de seu controle absoluto sobre o espaço, Gojo é conhecido por sua personalidade descontraída e senso de humor sarcástico.'
+    "nome": "Yuji Itadori",
+    "img": "assets/itadori.jpg",
+    "descricao": "Um estudante do ensino médio com uma força física excepcional."
   },
   {
-    nome: 'Suguru Geto',
-    img: 'assets/geto.jpg',
-    descricao: 'Ele possui profundos conhecimentos sobre maldições e é implacável em seus objetivos, buscando realizar sua visão distorcida do mundo.'
+    "nome": "Satoru Gojo",
+    "img": "assets/gojo.jpg",
+    "descricao": "Um dos mais fortes feiticeiros, conhecido por sua personalidade brincalhona."
   },
   {
-    nome: 'Yuji Itadori',
-    img: 'assets/itadori.jpg',
-    descricao: 'Apesar de se tornar hospedeiro de Sukuna, Itadori mantém sua gentileza e determinação em proteger os outros, tornando-se um protagonista cativante.'
+    "nome": "Megumi Fushiguro",
+    "img": "assets/megumi.png",
+    "descricao": "Um estudante de Jujutsu habilidoso, com uma habilidade única de invocar criaturas místicas."
   },
   {
-    nome: 'Megumi Fushiguro',
-    img: 'assets/megumi.png',
-    descricao: ' Fushiguro mostra uma determinação inabalável em proteger os outros, muitas vezes enfrentando desafios que testam seus limites.'
+    "nome": "Nobara Kugisaki",
+    "img": "assets/nobara.png",
+    "descricao": "Uma exibicionista confiante que utiliza uma técnica de combate com bonecas amaldiçoadas."
   },
   {
-    nome: 'Ryomen Sukuna',
-    img: 'assets/sukuna.jpg',
-    descricao: 'Além de sua força incomparável, Sukuna é conhecido por sua astúcia e habilidade em manipular situações a seu favor.'
+    "nome": "Toge Inumaki",
+    "img": "https://animerant.com.br/wp-content/uploads/2024/01/toge-braco.webp",
+    "descricao": "Um estudante de Jujutsu que usa palavras como feitiços em combate."
   },
   {
-    nome: 'Yuta Okkotso',
-    img: 'assets/yuta.jpg',
-    descricao: 'Yuta luta não apenas contra maldições, mas também contra suas próprias batalhas internas, buscando encontrar um equilíbrio entre suas habilidades e seu passado conturbado.'
+    "nome": "Panda",
+    "img": "https://i.pinimg.com/736x/15/e3/0a/15e30ae6053d8ab1823c82aa53c2662c.jpg",
+    "descricao": "Um companheiro de classe de Yuji e Megumi, que é, na verdade, uma criatura amaldiçoada."
   },
   {
-    nome: 'Nobara Kugisaki',
-    img: 'assets/nobara.png',
-    descricao: 'Uma jovem exorcista que utiliza um martelo amaldiçoado e uma técnica de controle de objetos chamada "Resonância".'
+    "nome": "Maki Zenin",
+    "img": "https://kanto.legiaodosherois.com.br/w728-h381-gnw-cfill-gcc/wp-content/uploads/2022/09/legiao_aTyIuzNU3ZRt.jpg.webp",
+    "descricao": "Uma ex-membro da poderosa família Zenin, que luta para provar seu valor."
   },
   {
-    nome: 'Aoi Todo',
-    img: 'assets/todo.jpg',
-    descricao: 'Todo é um personagem com uma personalidade extravagante e confiante. Ele exala uma aura de arrogância e competição, sempre buscando se destacar em suas habilidades de combate, especialmente no uso de técnicas de controle de chamas. Sua presença muitas vezes adiciona uma dinâmica interessante às interações com outros personagens.'
+    "nome": "Momo Nishimiya",
+    "img": "https://image.tensorartassets.com/model_showcase/645968480362936778/252404c0-4a75-a16b-7f79-d30aca612a47.jpeg",
+    "descricao": "Uma feiticeira com habilidades de manipulação de objetos."
   },
   {
-    nome: 'Toji Fushiguro',
-    img: 'assets/toji.jpg',
-    descricao: 'Toji Fushiguro é um homem misterioso e habilidoso em combate. Ele é conhecido por sua abordagem pragmática e fria diante de desafios, demonstrando uma eficiência brutal em suas ações. Apesar de sua personalidade reservada, Toji tem uma conexão familiar com Megumi Fushiguro, e suas interações revelam uma dinâmica complexa entre os dois. Sua presença na história adiciona uma camada de intriga e tensão, à medida que seus motivos e passado são gradualmente revelados.'
-  }
+    "nome": "Yuta Okkotsu",
+    "img": "assets/yuta.jpg",
+    "descricao": "O protagonista do filme Jujutsu Kaisen 0, que luta contra maldições."
+  },
+  {
+    "nome": "Kento Nanami",
+    "img": "https://eoszsmvknnh.exactdn.com/wp-content/uploads/2023/12/1702217605_Os-fas-de-JJK-podem-comprar-os-oculos-iconicos-de.jpg?strip=all&lossy=1&ssl=1",
+    "descricao": "Um feiticeiro frio e calculista que segue rigidamente as regras."
+  },
+  {
+    "nome": "Aoi Todo",
+    "img": "assets/todo.jpg",
+    "descricao": "Um feiticeiro excêntrico e poderoso que forma uma aliança improvável com Yuji."
+  },
+  {
+    "nome": "Kasumi Miwa",
+    "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/miwa-who.jpg",
+    "descricao": "Uma estudante de Jujutsu dedicada e habilidosa."
+  },
+  {
+    "nome": "Masamichi Yaga",
+    "img": "https://i.pinimg.com/736x/3d/02/b6/3d02b6815d9ff2e98490b5e45fbfd842.jpg",
+    "descricao": "O diretor da Escola de Jujutsu Tokyo."
+  },
+  {
+    "nome": "Kiyotaka Ijichi",
+    "img": "https://fictionhorizon.com/wp-content/uploads/2023/10/Ijichi.jpg",
+    "descricao": "Um professor na Escola de Jujutsu Tokyo que orienta os estudantes."
+  },
+  {
+    "nome": "Junpei Yoshino",
+    "img": "https://animerantshome.files.wordpress.com/2023/07/jujutsu-kaisen-junpei-yoshino-03-2.png?w=1200",
+    "descricao": "Um estudante colegial que se envolve com maldições após um encontro com Yuji."
+  },
+  {
+      nome: 'Nobara Kugisaki',
+      img: 'assets/nobara.png',
+      descricao: 'Uma jovem exorcista que utiliza um martelo amaldiçoado e uma técnica de controle de objetos chamada "Resonância".'
+    },
+    {
+        nome: 'Toji Fushiguro',
+        img: 'assets/toji.jpg',
+        descricao: 'Toji Fushiguro é um homem misterioso e habilidoso em combate. Ele é conhecido por sua abordagem pragmática e fria diante de desafios, demonstrando uma eficiência brutal em suas ações. Apesar de sua personalidade reservada, Toji tem uma conexão familiar com Megumi Fushiguro, e suas interações revelam uma dinâmica complexa entre os dois. Sua presença na história adiciona uma camada de intriga e tensão, à medida que seus motivos e passado são gradualmente revelados.'
+    },
+    {
+      nome: 'Ryomen Sukuna',
+      img: 'assets/sukuna.jpg',
+      descricao: 'Além de sua força incomparável, Sukuna é conhecido por sua astúcia e habilidade em manipular situações a seu favor.'
+    }
 ]
 
 listaFeiticeiros.map((feiticeiro, posicao) => {
