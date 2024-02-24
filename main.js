@@ -46,22 +46,22 @@ let listaFeiticeiros = [
   // }
   {
     "nome": "Yuji Itadori",
-    "img": "assets/itadori.jpg",
+    "img": "https://criticalhits.com.br/wp-content/uploads/2021/12/yuji.jpg",
     "descricao": "Um estudante do ensino médio com uma força física excepcional."
   },
   {
     "nome": "Satoru Gojo",
-    "img": "assets/gojo.jpg",
+    "img": "https://www.otempo.com.br/image/contentid/policy:1.2870698:1684328641/image-Jujutsu-Kaisen-decepciona-com-retorno-de-Gojo-depois-de-3-anos.jpg?f=3x2&w=1224",
     "descricao": "Um dos mais fortes feiticeiros, conhecido por sua personalidade brincalhona."
   },
   {
     "nome": "Megumi Fushiguro",
-    "img": "assets/megumi.png",
+    "img": "https://kanto.legiaodosherois.com.br/w728-h381-gnw-cfill-gcc-f:fbcover/wp-content/uploads/2022/01/legiao_ui0WaALqM34s.jpg.webp",
     "descricao": "Um estudante de Jujutsu habilidoso, com uma habilidade única de invocar criaturas místicas."
   },
   {
     "nome": "Nobara Kugisaki",
-    "img": "assets/nobara.png",
+    "img": "https://beebom.com/wp-content/uploads/2023/10/nobara-prior-to-her-death.jpg?w=1250&quality=75",
     "descricao": "Uma exibicionista confiante que utiliza uma técnica de combate com bonecas amaldiçoadas."
   },
   {
@@ -96,7 +96,7 @@ let listaFeiticeiros = [
   },
   {
     "nome": "Aoi Todo",
-    "img": "assets/todo.jpg",
+    "img": "https://criticalhits.com.br/wp-content/uploads/2023/12/latest-1.jpg",
     "descricao": "Um feiticeiro excêntrico e poderoso que forma uma aliança improvável com Yuji."
   },
   {
@@ -120,20 +120,20 @@ let listaFeiticeiros = [
     "descricao": "Um estudante colegial que se envolve com maldições após um encontro com Yuji."
   },
   {
-      nome: 'Nobara Kugisaki',
-      img: 'assets/nobara.png',
-      descricao: 'Uma jovem exorcista que utiliza um martelo amaldiçoado e uma técnica de controle de objetos chamada "Resonância".'
-    },
-    {
-        nome: 'Toji Fushiguro',
-        img: 'assets/toji.jpg',
-        descricao: 'Toji Fushiguro é um homem misterioso e habilidoso em combate. Ele é conhecido por sua abordagem pragmática e fria diante de desafios, demonstrando uma eficiência brutal em suas ações. Apesar de sua personalidade reservada, Toji tem uma conexão familiar com Megumi Fushiguro, e suas interações revelam uma dinâmica complexa entre os dois. Sua presença na história adiciona uma camada de intriga e tensão, à medida que seus motivos e passado são gradualmente revelados.'
-    },
-    {
-      nome: 'Ryomen Sukuna',
-      img: 'assets/sukuna.jpg',
-      descricao: 'Além de sua força incomparável, Sukuna é conhecido por sua astúcia e habilidade em manipular situações a seu favor.'
-    }
+      "nome": 'Toji Fushiguro',
+      "img": 'https://c4.wallpaperflare.com/wallpaper/95/627/603/jujutsu-kaisen-fushiguro-toji-weapon-sword-muscles-hd-wallpaper-preview.jpg',
+      "descricao": 'Toji Fushiguro é um homem misterioso e habilidoso em combate. Ele é conhecido por sua abordagem pragmática e fria diante de desafios, demonstrando uma eficiência brutal em suas ações. Apesar de sua personalidade reservada, Toji tem uma conexão familiar com Megumi Fushiguro, e suas interações revelam uma dinâmica complexa entre os dois. Sua presença na história adiciona uma camada de intriga e tensão, à medida que seus motivos e passado são gradualmente revelados.'
+  },
+  {
+      "nome": 'Ryomen Sukuna',
+      "img": 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydJ2cVWIR3eg4g7TmVmW-k-0EIL3B682L6g&usqp=CAU',
+      "descricao": 'Além de sua força incomparável, Sukuna é conhecido por sua astúcia e habilidade em manipular situações a seu favor.'
+  },
+  {
+    "nome": 'Mahito',
+    "img": 'https://animerant.com.br/wp-content/uploads/2023/08/1e24e-16914249060895-1920.jpg',
+    "descricao": 'Mahito é um personagem conhecido por sua aparência distorcida e sua personalidade sádica. Ele é habilidoso em manipular a forma e a essência das pessoas, explorando conceitos obscuros da natureza humana. Sua presença geralmente representa uma ameaça para os outros personagens, à medida que ele busca entender e experimentar a maldade em sua forma mais pura.'
+  }
 ]
 
 listaFeiticeiros.map((feiticeiro, posicao) => {
