@@ -140,15 +140,15 @@ listaFeiticeiros.map((feiticeiro, posicao) => {
   let cardJujutsu = document.querySelector(".row")
   cardJujutsu.innerHTML += `
     <div class="col-md-4">
-    <div class="card m-2">
-      <img src="${feiticeiro.img}" class="card-img-top" alt="..." >
-      <div class="card-body">
-        <h5 class="card-title">${feiticeiro.nome}</h5>
-        <button onclick="abrirModal(${posicao})" class="btn btn-secondary">
-        <i class="bi bi-zoom-in"></i>
-        </button>
+      <div class="card m-2 ">
+        <img src="${feiticeiro.img}" class="card-img-top object-fit-cover" style="max-height: 13rem" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">${feiticeiro.nome}</h5>
+          <button onclick="abrirModal(${posicao})" class="btn btn-secondary">
+          <i class="bi bi-zoom-in"></i>
+          </button>
+        </div>
       </div>
-    </div>
     </div>
   `
 
